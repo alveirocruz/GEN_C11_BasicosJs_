@@ -37,3 +37,8 @@ console.log(nombre.trim().toUpperCase());
 console.log(nombre.trim().includes("bluetooth")); 
 console.log(nombre.trim().replace("bluetooth", "BT")); 
 console.log(nombre.trim().length);    
+
+const prompt = require('prompt-sync')();
+
+let nombre2 = prompt("Cual")
+console.log(nombre2);
