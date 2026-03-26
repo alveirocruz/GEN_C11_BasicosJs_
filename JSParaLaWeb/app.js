@@ -65,6 +65,7 @@ btnCalcular.addEventListener("click", function() {
   }
 
   //! Mostrando resultado
+  let emoji = "🚀";
   document.getElementById("mensajePrincipal").textContent = emoji + " " + nombre + ", tu perfil es:";
   document.getElementById("subMensaje").textContent = perfil;
 
